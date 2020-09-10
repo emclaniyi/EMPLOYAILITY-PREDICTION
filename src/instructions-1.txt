@@ -1,0 +1,22 @@
+INSTRUCTIONS
+Firstly, you must be connected to the internet the first time you run this app.
+
+1) Run 'pip install pipenv' in your command prompt(without the quotes).
+2) Next, you open the src directory in your command prompt(cmd) and run 'pipenv sync' 
+3) Next, you run 'python manage.py migrate' to install the database tables in the app.
+and next 'pipenv shell'
+4) To run the application, you run 'python manage.py runserver'
+5) Finally, you can open your browser and open the app at http://127.0.0.1:8000
+
+admin username: admin
+admin password: adminpassword
+The admin has access to and can login at http://127.0.0.1:8000/admin
+This is where you see all the information of the applicants as the admin.
+
+You should create new users but i already have one that has taken the tests.
+username: john
+password: johnny
+
+NB: when next you want to start the project, just open
+the src folder in your cmd and just run: 'python manage.py runserver' then
+open it in your browser.
